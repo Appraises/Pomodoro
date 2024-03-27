@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(185, 63, 63);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pomodoro {
+    padding: 40px 90px 40px 90px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(206, 97, 97);
+    text-align: center;
+}
+
+div.modos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+div.ativo-foco {
+    background-color: rgb(185, 63, 63);;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+div.ativo-pausa {
+    background-color: #59a5d8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+div.timer {
+    font-size: 7em;
+    font-family: 'Space Grotesk';
+    display: block;
+    margin-bottom: 40px;
+}
+
+div.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicia {
+    font-family: 'Space Grotesk';
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: rgb(253, 77, 77);
+    box-shadow: 0px 5px rgb(255, 247, 247);
+    cursor: pointer;
+    margin-right: 2vh;
+}
+
+span {
+    cursor: pointer;
+    font-size: 3em;
+}
+
+.inativo {
+    color: rgb(223, 223, 223);
+}
+
+
+
+
