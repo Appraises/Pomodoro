@@ -134,7 +134,6 @@ var PomodoroClock = /*#__PURE__*/function () {
       this.backgroundSection.style.transition = 'background-color 1.3s ease-in-out';
       this.buttonStart.style.color = '#B93F3F';
       this.buttonStart.style.transition = 'color 1.3s ease-in-out';
-      console.log(a)
     }
   }]);
   return PomodoroClock;
